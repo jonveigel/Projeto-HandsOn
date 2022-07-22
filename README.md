@@ -1,4 +1,4 @@
-# <p align="center"><img alt="Dindin" height="64" src="./img/logo-header.png"></p>
+# <p align="center"><img alt="Dindin" height="64" src="./images/logo-header.png"></p>
 
 <h4 align="center">Educação Financeira</h4>
 
