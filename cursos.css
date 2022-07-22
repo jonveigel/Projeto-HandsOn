@@ -1,0 +1,206 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+    background-color: #2E948A;
+}
+
+ul {
+    list-style: none;
+}
+
+header ul {
+    display: flex;
+}
+
+header ul li {
+    padding: 15px;
+    color: white;
+}
+
+
+
+.title {
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 69px;
+    color: #FF4081;
+    padding: 80px 0 15px 80px;
+}
+
+.parag {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23px;
+    color: #555555;
+    padding: 0 0 150px 80px;
+}
+
+
+.title2 {
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 40px;
+    color: #FF4081;
+    padding: 150px 0 0 50px;
+    height: 50px;
+}
+
+.container {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+} 
+
+#img-ilustra {
+    padding: 150px 0 200px 150px;
+}
+
+.parag1 {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 21px;
+    color: #000000;
+    width: 900px;
+    padding: 50px 0 50px 50px;
+}
+
+
+.button {
+    width: 233px;
+    height: 51px;
+    background-color: #419488;
+    color: #ffffff;
+    border-radius: 62px;
+    border: 1px solid #ffffff;
+    margin: 0 0 0 50px;
+}
+
+hr {
+    border: 0;
+    height: 3px;
+    background-image: linear-gradient(to right, transparent, #C4C4C4, transparent);  
+  }
+
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+ }
+
+
+
+
+footer {
+    display: flex;
+    background-color: #2E948A;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+    color: white;
+    width: 100%;
+ }
+
+ footer div p {
+    border: 1px solid white;
+    border-radius: 62px;
+    padding: 15px;
+    text-align: center;
+
+ }
+
+ div ul li {
+   padding: 3px;
+}
+
+
+@media only screen and  (max-width: 480px) {
+    header ul {
+        display: block;
+     }
+
+  
+     #img-logo {
+        padding-left: 50px;
+        width: 70%;
+     }
+  
+     #ilustra-banner {
+        display: none;
+     }
+
+     .title, .parag {
+        text-align: center;
+        padding-right: 70px;
+     }
+
+     .parag1 {
+        text-align: center;
+     }
+
+    #img-ilustra {
+        padding: 5px;
+    }
+
+    .title2 {
+        font-size: 22px;
+        text-align: center;
+        padding-right: 30px;
+    }
+
+    .parag1 {
+        font-size: 22px;
+        text-align: center;
+        max-width: 400px;
+    }
+
+    .button {
+        margin: 0 0 0 35px;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+     }
+  
+     .outro {
+        font-size: 20px;
+     }
+
+    }
+     
+
+     @media only screen and (max-width: 900px) {
+        .title, .parag {
+            text-align: center;
+            padding-right: 30px;
+        }
+
+        #img-ilustra {
+            padding: 0;
+            margin: 0 auto;
+        }
+
+        .div1 {
+           margin: 0 auto;
+           text-align: center;
+           padding-right: 30px;
+        }
+
+        .container {
+            justify-content: center;
+            align-items: center;
+        }
+
+        .parag1, .button {
+            font-size: 18px;
+        }
+    }
+

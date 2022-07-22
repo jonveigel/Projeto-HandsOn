@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+    background-color: #2E948A;
+}
+
+ul {
+    list-style: none;
+}
+
+header ul {
+    display: flex;
+}
+
+header ul li {
+    padding: 15px;
+    color: white;
+}
+
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+ }
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 100px;
+}
+
+label {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 46px;
+    color: #FF4081;
+}
+
+#name, #email {
+    border: 1px solid #686868;
+    border-radius: 7px;
+    width: 450px;
+    height: 40px;
+    margin: 10px;
+}
+
+textarea {
+    border: 1px solid #686868;
+    border-radius: 7px;
+    width: 450px;
+    height: 200px;
+    margin: 10px;
+}
+
+#submit {
+    background: #FF4081;
+    color: white;
+    border: 0px white;
+    border-radius: 50px;
+    width: 100px;
+    height: 30px;
+    margin: 10px;
+}
+
+
+
+
+footer {
+    display: flex;
+    background-color: #2E948A;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px;
+    color: white;
+    width: 100%;
+    
+ }
+
+ footer div p {
+    border: 1px solid white;
+    border-radius: 62px;
+    padding: 15px;
+    text-align: center;
+
+ }
+
+ div ul li {
+   padding: 3px;
+}
+
+
+@media only screen and  (max-width: 480px) {
+    header ul {
+        display: block;
+     }
+
+  
+     #img-logo {
+        padding-left: 50px;
+        width: 70%;
+     }
+
+     #ilustra-contato {
+        display: none;
+     }
+
+
+     form {
+        text-align: center;
+     }
+
+     #name, #email, textarea {
+        width: 300px;
+     }
+
+}
+
+@media only screen and  (max-width: 900px) {
+    #ilustra-contato {
+        width: 50%;
+    }
+
+    #name, #email, textarea {
+        font-size: 25px;
+     }
+
+     #submit {
+        font-size: 18px;
+     }
+}
+
