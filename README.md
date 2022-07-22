@@ -36,6 +36,6 @@ Será desenvolvido um site estático. </p>
 ##  📝 Licença
 
 
-Este projeto está sobe a licença [ MIT ](./LICENSE).
+Este projeto está sobe a licença [ MIT ](./MIT-LICENSE.txt).
 
 Feito por Jonathan Veigel 👋🏻 [ Entre em contato! ](https://www.linkedin.com/in/jonathan-veigel0/)
